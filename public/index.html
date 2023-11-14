@@ -1,1 +1,107 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Foodora 2.0</title>
+       <meta charset="utf-8"/>
+   </head>
+   <!-- en kommentar-->
+   <body>
+        <header>
+             <h1>Välkommen till Foodora 2.0</h1>
+        </header>
+        <main>        
+            <section id="hamburgers">
+                <div style="display: inline-block; vertical-align: top;">
+                    <h3>Den nyttiga</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyojvzAQkWU2Z03zMI5nAIY-5xH0wn0nvXLQ&usqp=CAU" alt="Span" title="Another in-line element" style="width: 200px;">
+                    <ul>
+                        <li>Grovt bröd (innehåller gluten)</li>
+                        <li>Picklad rödlök (inehåller rödlök)</li>
+                        <li>120 g vegetarisk biff (innehåller soja)</li>
+                    </ul>
+                </div>
+                <div style="display: inline-block; vertical-align: top;">
+                    <h3>Den höga</h3>
+                    <img src="https://www.shakentogetherlife.com/wp-content/uploads/2022/10/hamburger-baked-in-oven.jpg" alt="Span" title="Another in-line element" style="width: 200px;">
+                    <ul>
+                        <li>Sallad och mayonaise (inehåller ägg)</li>
+                        <li>Tomat och ost (inehåller tomat och laktos)</li>
+                        <li>150 g kött (inehåller nötkött) </li>
+                    </ul>
+                </div>
+                <div style="display: inline-block; vertical-align: top;">
+                    <h3>Smashburgaren</h3>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/25/18/0e/8a/original-smash-burger.jpg" alt="Span" title="Another in-line element" style="width: 200px;">
+                    <ul>
+                        <li>Briochebröd (går att få glutenfritt)</li>
+                        <li>Karamaliserad lök (inehåller lök och karamell)</li>
+                        <li>150 g kött (smashat kött) </li>
+                    </ul>
+                </div>
+                
+               
+            </section>
+            <section id="Kundinformation">
+                <form>
+                    <h3>Kundinformation</h3>
+                    Skriv viktig information
+
+                    
+
+                    <h4>Leveransinformation</h4>
+                    <p>
+                        <label for="Namn">Namn</label><br>
+                        <input type="text" id="namn" name="fn" required="required" placeholder="För- och efternamn">
+                    </p>
+                    <p>
+                        <label for="Email">E-mail</label><br>
+                        <input type="email" id="mail" name="ma" required="required" placeholder="E-mail adress">
+                    </p>
+                    <p>
+                        <label for="Adress">Adress</label><br>
+                        <input type="text" id="adress" name="ad" required="required" placeholder="Gata">
+                    </p>
+                    <p>
+                        <label for="Husnummer">Hus</label><br>
+                        <input type="number" id="husnummer" name="nu" required="required" placeholder="Husnummer">
+                    </p>
+                    <p>
+                        <label for="payment">Betalningsalternativ</label><be>
+                        <select id="payment" name="pay">
+                            <option>Swish</option>
+                            <option selected="selected">Kort</option>
+                            <option>Klarna</option>
+                            <option>PayPal</option>
+                        </select>
+                    </p>
+                    <h4>Kön:</h4>
+                    <p>
+                        <label for="Man">Man</label>
+                        <input type="radio" id="kön" name="Kön" required="required" value="value">
+                    </p>
+                    <p>
+                        <label for="Kvinna">Kvinna</label>
+                        <input type="radio" id="kön" name="Kön" required="required" value="value">
+                    </p>
+                    <p>
+                        <label for="Vill ej ange">Vill ej ange</label>
+                        <input type="radio" id="kön" name="Kön" required="required" value="value" checked="checked">
+                    </p> 
+                </form>
+
+                <button type="submit">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" style="width: 15px;">
+                    Skicka beställning
+                </button>
+
+            </section>
+
+
+        </main>
+        <footer>
+            <hr>
+            &copy; 2023 Ida Larsson
+        </footer>
+   
+   </body>
+</html>
